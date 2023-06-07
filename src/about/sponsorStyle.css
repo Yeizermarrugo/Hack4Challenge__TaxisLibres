@@ -1,0 +1,83 @@
+.pad-bottom90px {
+  padding-bottom: 90px;
+}
+
+.pad-top85px {
+  padding-top: 85px;
+}
+
+.wrap-client {
+  background-color: #fff;
+}
+
+.flat-row {
+  clear: both;
+  display: block;
+  position: relative;
+  padding: 30px 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 20px 0;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.flat-title {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.flat-title > h5 {
+  color: #121939;
+  font-size: 27px;
+  position: relative;
+  margin-top: 80px;
+  letter-spacing: .5px;
+  font-weight: 700;
+  font-family: 'Work Sans', sans-serif;
+}
+
+h5 {
+  line-height: 30px;
+}
+
+.slider_clientes_contenedor {
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+#slider {
+  width: 300%;
+  height: 100px;
+  background-image: url(https://www.taxislibres.com.co/public/assets/images/medios/clientes_01.webp);
+  background-repeat: repeat-x;
+  background-size: 100% 100%;
+  animation: slider 40s infinite linear;
+}
+
+
+
+
+@keyframes slider {
+  0% {
+    background-position-x: -2400px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #slider {
+    background-size: contain;
+    background-position: center;
+  }
+}

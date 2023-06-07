@@ -1,0 +1,130 @@
+.footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 40px 40px;
+    margin-top: 100px;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .footer__columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .footer__column {
+    flex-basis: calc(20% - 30px);
+    margin-bottom: 30px;
+  }
+  
+  
+  .footer__title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .footer__link {
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer__link:hover {
+    color: blue;
+  }
+  
+  .footer__social {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .footer__social__icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .footer__social__icon:last-child {
+    margin-right: 0;
+  }
+  
+  .footer__social__icon:nth-child(1):hover {
+    color: blue;
+  }
+  
+  .footer__social__icon:nth-child(2):hover {
+    color: rgba(0, 98, 255, 0.847);
+  }
+  
+  .footer__social__icon:nth-child(3):hover {
+    background: linear-gradient(-15deg, #f58529, #dd2a7b, #833ab4);
+  }
+  
+  .footer__social__icon:hover {
+    background-color: #ddd;
+  }
+  
+  .footer__bottom {
+    text-align: center;
+  }
+  
+  .footer__bottom__text {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 10px;
+  }
+  
+  .footer__bottom__link {
+    color: #aaa;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer__bottom__link:hover {
+    color: #fff;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .footer__column {
+      flex-basis: 100%;
+    }
+    .footer__column:nth-child(4) > h3:nth-child(1) {
+        display: flex;
+        justify-content: center;
+    }
+    .footer__social {
+        display: flex;
+        margin-top: 10px;
+        justify-content: center;
+      }
+      
+  }
+  
+  @media (max-width: 480px) {
+    .footer__title {
+      font-size: 18px;
+    }
+    .footer__column:nth-child(4) > h3:nth-child(1) {
+        display: flex;
+        justify-content: center;
+    }
+    .footer__social {
+        display: flex;
+        margin-top: 10px;
+        justify-content: center;
+      }
+      
+  }
+  

@@ -1,0 +1,30 @@
+{
+    "title": [
+        " HACK4CHALLENGE"
+    ],
+    "description":[
+        "Hack4Challenge es un emocionante evento de Hackathon que reúne a mentes creativas y apasionadas para colaborar en la resolución de desafíos tecnológicos y sociales. Durante este evento de 48 horas, los participantes tendrán la oportunidad de poner en práctica sus habilidades de programación, diseño y pensamiento innovador para desarrollar soluciones creativas y transformadoras."
+    ],
+    "date": [
+        "El Hackathon Hack4Challenge se llevará a cabo los días 15 y 16 de julio de 2023. La competencia comenzará a las 9:00 a.m. y concluirá a las 9:00 a.m. del día siguiente"
+    ],
+    "place": [
+        ["El evento se llevará a cabo en el Centro de Innovación Tecnológica, ubicado en el corazón de la ciudad de Bogota, en un ambiente inspirador y propicio para la colaboración y el desarrollo de ideas."],
+        ["¡Pero no te preocupes si no resides aqui! tambien hay oportunidades para todo el mundo estaremos enviando el link para conectarse de manera remota a todas las personas que no residen en la ciudad o el paìs"]
+    ],
+    "topics": [
+        "El Hack4Challenge se enfocará en desafíos relacionados con la sostenibilidad ambiental y el uso de la tecnología para abordar problemáticas sociales. Los participantes tendrán la oportunidad de trabajar en proyectos innovadores que contribuyan al desarrollo sostenible, la inclusión social, la educación, la salud o cualquier otro ámbito de impacto positivo en la sociedad."
+    ],
+    "event":{
+        "structure":[
+            ["Los participantes se registrarán individualmente y se les asignará un equipo de 3 a 5 personas con perfiles complementarios, como desarrolladores, diseñadores y especialistas en negocios."],
+            ["Se presentarán los desafíos específicos que los participantes deberán abordar durante el Hackathon. Estos desafíos estarán relacionados con la temática del evento y se proporcionará documentación detallada para su comprensión."],
+            ["Los equipos trabajarán en sus proyectos durante un período de 24 horas, utilizando sus habilidades y conocimientos para crear prototipos funcionales y soluciones innovadoras. Se fomentará la colaboración y se ofrecerá asesoramiento por parte de mentores y expertos en el área temática."],
+            ["Cada equipo tendrá la oportunidad de presentar su proyecto ante un panel de jueces y el público. Se evaluará la originalidad, la calidad técnica, el impacto social y la viabilidad de las soluciones propuestas."],
+            ["Se otorgarán premios a los equipos destacados, reconociendo su creatividad, innovación y capacidad para abordar los desafíos planteados. Los premios pueden incluir mentorías, apoyo para el desarrollo de la idea, acceso a recursos tecnológicos o incluso oportunidades de inversión."]
+        ]
+    },
+    "info":[
+        "El Hack4Challenge es una oportunidad única para que los participantes adquieran experiencia en el desarrollo de proyectos tecnológicos, establezcan contactos profesionales, aprendan de expertos en la industria y contribuyan de manera significativa al cambio social y ambiental."
+    ]
+}
