@@ -11,10 +11,6 @@ const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí puedes realizar cualquier lógica adicional con los datos ingresados antes de enviar el formulario
-    // Por ejemplo, puedes hacer una petición a un servidor API para guardar los datos
-
-    // Después de enviar el formulario, establecemos submitted en true para mostrar el mensaje de confirmación
     setSubmitted(true);
   };
 
