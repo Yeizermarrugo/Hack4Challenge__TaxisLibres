@@ -95,7 +95,7 @@
     color: #fff;
   }
   
-  /* Media Queries */
+
   @media (max-width: 768px) {
     .footer__column {
       flex-basis: 100%;
