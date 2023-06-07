@@ -5,11 +5,12 @@
   right: 0;
   bottom: 0;
   height: 100vh;
+  margin-bottom: 80px;
   }
   
   .form > img {
     width: 100%;
-    height: 115%;
+    height: 130%;
     display: block;
     margin-top: 60px;
   }
